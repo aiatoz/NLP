@@ -17,12 +17,12 @@
       1. Context length can be increased by changing the value associated with "context_length" parameter
       2. The code can be run completely locally if you have a good consumer end GPU. The model can be downloaded, and it's path has to be given in the code. 
             
-Eg : 
+      Eg : 
             Instead of 
             
                   AutoModelForCausalLM.from_pretrained("TheBloke/Mistral-7B-Instruct-v0.1-GGUF", model_file="mistral-7b-instruct-v0.1.Q4_K_M.gguf", model_type = "mistral")
             
-Use 
+      Use 
                   
             AutoModelForCausalLM.from_pretrained("model/mistral-7b-instruct-v0.1.Q4_K_M.gguf", model_type = "mistral")
       
