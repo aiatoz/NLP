@@ -1,9 +1,11 @@
 -Components
+      
       1. Web Scraper
       2. LLM
       Using an LLM to learn the  context from a web page, so that it can be used as a web querying engine.
 
 -Limitations of the current system:
+      
       1. Due to limited compute I've restricted the context length to 2048. The default context length of 2048 will work just fine with a T4 GPU
             - If you have enough compute, feel free to increase the context length
       2. The current scraping system is not efficient
