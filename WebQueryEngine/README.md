@@ -5,7 +5,8 @@
     
     - Web Scraper
     - LLM
-    Using an LLM to learn the  context from a web page, so that it can be used as a web querying engine.
+    
+        Using an LLM to learn the  context from a web page, so that it can be used as a web querying engine.
 
 - Limitations of the current system:
     - Due to limited compute I've restricted the context length to 2048. The default context length of 2048 will work just fine with a T4 GPU
