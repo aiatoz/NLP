@@ -1,5 +1,5 @@
 
-# Web Query Engine using LLM
+# Web Query Engine using LLM - Simple RAG mechanism built from scratch
 
 - Components
     
